@@ -3,6 +3,13 @@
   font-size: calc(10px + 2vmin);
 }
 
+.btn {
+  width: 120px;
+  height: 60px;
+  background-color: black;
+  color: white;
+}
+
 .card {
   height: 150px;
   width: 120px;
@@ -15,6 +22,10 @@
   flex-direction: center;
   align-items: center;
   text-align: center;
+}
+
+.cash-container {
+  margin-left: 50px
 }
 
 .dealer-hand {
