@@ -1,5 +1,3 @@
-// help from https://github.com/jarodburchill/blackjack-react-app
-
 import React, { useState, useEffect } from 'react';
 import Status from './Status';
 import Controls from './Controls';
