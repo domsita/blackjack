@@ -8,7 +8,7 @@ const Card = ({ value, suit, hidden }) => {
             );
         } else {
             return (
-                <div className='card'>
+                <div className={(suit === '\u2663' || suit === '\u2660') ? "black-card" : "red-card"}>
                     <h1 className='value'>{value}</h1>
                     <h1 className='suit'>{suit}</h1>
                 </div>

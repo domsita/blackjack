@@ -15,7 +15,12 @@ const Hand = ({ title, cards}) => {
             <div className='card-container'>
                 {cards.map((card, index) => {
                     return (
-                        <Card key={index} value={card.value} suit={card.suit} hidden={card.hidden}></Card>
+                        <Card 
+                            key={index} 
+                            value={card.value} 
+                            suit={card.suit} 
+                            hidden={card.hidden}>
+                        </Card>
                     );
                 })}
             </div>

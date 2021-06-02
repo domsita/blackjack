@@ -1,47 +1,58 @@
-.App {
-  min-width: 100%;
-  font-size: calc(10px + 2vmin);
+body {
+    background-color: teal;
+    color: snow;
 }
 
 .btn {
-  width: 120px;
-  height: 60px;
-  background-color: black;
-  color: white;
+    font-size: 1.5rem;
+    width: 100px;
+    height: 40px;
+    color: black;
+    background-color: snow;
+    border-radius: 10px;
+    margin: 10px 0px;
 }
 
-.card {
-  height: 150px;
-  width: 120px;
-  border: 2px solid black;
-  margin: 3px;
+.btn:disabled {
+    background-color: maroon;
+    color: snow;
+}
+
+.black-card, .red-card, .hidden-card {
+    display: flex;
+    justify-content: center;
+    width: 90px;
+    height: 120px;
+    border: 2px solid black;
+    background-color: snow;
+    text-align: center;
+    margin: 5px;
+    font-size: 1.25rem;
+}
+
+.black-card {
+    color: black;
+}
+
+.red-card {
+    color: red;
 }
 
 .card-container {
-  display: flex;
-  flex-direction: center;
-  align-items: center;
-  text-align: center;
+    display: flex;
+    align-items: center;
 }
 
-.cash-container {
-  margin-left: 50px
+.input {
+    width: 80px;
+    height: 40px;
+    background-color: snow;
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 10px;
 }
 
-.dealer-hand {
-  display: flex;
-  flex-direction: center;
-  align-items: center;
-  text-align: center;
-  margin-left: 50px;
-  margin-top: 50px;
-}
-
-.player-hand {
-  display: flex;
-  flex-direction: center;
-  align-items: center;
-  text-align: center;
-  margin-left: 50px;
-  margin-top: 50px;
+.input:focus {
+    border: none;
 }

@@ -33,7 +33,7 @@ const Controls = ({ balance, gameState, buttonState, betEvent, hitEvent, standEv
                 <div className='controls-container'>
                     <div className='bet-container'>
                         <h4>Amount:</h4>
-                        <input autoFocus type='number' value={amount} onChange={amountChange} className='input' />
+                        <input type='number' value={amount} onChange={amountChange} className='input' />
                     </div>
                     <button onClick={() => {onBetClick()}} className='btn'>Bet</button>
                 </div>
